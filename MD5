@@ -1,0 +1,14 @@
+eafe99f1b13cf5a47604480a129a5025 *DESCRIPTION
+d13755f74c42a1faec3e818ba416fece *LICENSE
+48f5b2167fc54e4c0baab4a468897014 *NAMESPACE
+838cf6f1e2b0df63dc5ea7e2cdf69618 *NEWS
+abb0a1550ec3b31f77c692db159a9440 *NEWS.md
+575a40d2125e9abfcc362fb8f98be9da *R/odds.ratio.gam.R
+e6b8d72e67729e32cf7f3ef87926912e *R/odds.ratio.glm.R
+bdd75837c926d72d50038310f6867246 *build/vignette.rds
+b73577c6da4a523efda95bfbe4c52dba *inst/doc/exemplary-function-usage.R
+e8a1b5c926acc657b009468effd6193e *inst/doc/exemplary-function-usage.Rmd
+14de4f1d27a4ce1dd4531397e85b627d *inst/doc/exemplary-function-usage.html
+581781ad2536bfc89dd9aa62f217db3d *man/calc.oddsratio.gam.Rd
+afd504e976823461cc60322b9172bc0f *man/calc.oddsratio.glm.Rd
+e8a1b5c926acc657b009468effd6193e *vignettes/exemplary-function-usage.Rmd
