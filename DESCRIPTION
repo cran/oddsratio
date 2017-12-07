@@ -1,9 +1,13 @@
 Package: oddsratio
-Version: 1.0.0
+Version: 1.0.2
+Date: 2017-12-07
 Title: Odds Ratio Calculation for GAM(M)s & GLM(M)s
 Authors@R: c(
-    person("Patrick", "Schratz", , "patrick.schratz@gmail.com", c("aut", "cre"))
-    )
+   person("Patrick", "Schratz", ,
+   email = "patrick.schratz@gmail.com", 
+   role = c("aut", "cre"),
+   comment = c(ORCID = '0000-0003-0748-6624'))
+  )
 Description: Simplified odds ratio calculation of GAM(M)s & GLM(M)s. 
     Provides structured output (data frame) of all predictors and their corresponding odds ratios and confident intervals
     for further analyses. It helps to avoid false references of predictors and increments by
@@ -25,8 +29,8 @@ LazyData: true
 ByteCompile: true
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2017-06-12 20:30:54 UTC; pjs
-Author: Patrick Schratz [aut, cre]
+Packaged: 2017-12-07 15:13:04 UTC; pjs
+Author: Patrick Schratz [aut, cre] (0000-0003-0748-6624)
 Maintainer: Patrick Schratz <patrick.schratz@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-06-12 22:08:28 UTC
+Date/Publication: 2017-12-07 15:51:08 UTC
