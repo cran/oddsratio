@@ -87,7 +87,7 @@
 #'           arrow_length = 0.01, rect = TRUE)
 #' @export
 
-insert_or <- function(plot_object = NULL, or_object = NULL, line_col = "red", # nocov start
+insert_or <- function(plot_object = NULL, or_object = NULL, line_col = "red", # nocov start # nolint
                       line_size = 1.2, line_type = "solid", line_alpha = 1,
                       text_alpha = 1, text_size = 4, text_col = "black",
                       rect_alpha = 0.5, rect_col = NULL,
@@ -114,9 +114,9 @@ insert_or <- function(plot_object = NULL, or_object = NULL, line_col = "red", # 
     # set drawing order to place rect behind smoothing fun
     plot_object$layers <- c(geom_rect(data = plot_object$data[1,], # avoids multiple rect drawings # nolint
                                       ymin = ggplot_build(plot_object)$layout$
-                                        panel_ranges[[1]]$y.range[1],
+                                        panel_params[[1]]$y.range[1],
                                       ymax = ggplot_build(plot_object)$layout$
-                                        panel_ranges[[1]]$y.range[2],
+                                        panel_params[[1]]$y.range[2],
                                       xmin = or_object$value1,
                                       xmax = or_object$value2,
                                       alpha = rect_alpha, fill = rect_col),
@@ -143,7 +143,7 @@ insert_or <- function(plot_object = NULL, or_object = NULL, line_col = "red", # 
 
     if (is.null(arrow_xloc_l)) {
       # calc arrow shift from x axis range
-      arrow_xloc_l <- -(max(plot_object$data$y) - min(plot_object$data$y)) *
+      arrow_xloc_l <- - (max(plot_object$data$y) - min(plot_object$data$y)) *
         0.002
     }
 
