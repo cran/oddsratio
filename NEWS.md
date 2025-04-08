@@ -1,3 +1,13 @@
+<!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
+
+# oddsratio 2.0.2
+
+## Chore
+
+- Account for mixed predictor specifications.
+- Upkeep maintenance.
+
+
 # oddsratio 2.0.1
 
 ## Package infrastructure

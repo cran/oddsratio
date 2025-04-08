@@ -72,7 +72,6 @@ or_gam <- function(data = NULL,
                    percentage = NULL,
                    slice = FALSE,
                    ci = NULL) {
-
   names_pred <- colnames(data)
 
   if (slice == TRUE) {
@@ -104,7 +103,6 @@ or_gam <- function(data = NULL,
 
     # apply OR calc for vector
     for (x in 1:(100 / percentage)) {
-
       # set all preds to their mean if they are numeric
       for (i in names_pred) {
         if (is.numeric(data[[i]])) {
